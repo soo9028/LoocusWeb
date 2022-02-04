@@ -1,0 +1,140 @@
+.container{
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+.container1{
+    margin-top: 3em;
+    display: flex;
+    border: 0.5px solid;
+    align-items: center;
+    width: 700px;
+}
+
+#search{
+    margin-left: 130px;
+    margin-right: 10px;
+}
+
+::-webkit-input-placeholder{
+    font-style: italic;
+}
+
+#searchbtn{
+    margin-left: 10px;
+}
+
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1E90FF;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 8px;
+    width: 130px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 3px;
+  }
+  
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+  }
+  
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+button:hover span {
+    padding-right: 25px;
+  }
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.container2{
+    margin: 0;
+    padding: 0;
+    border-bottom: 0.5px solid;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.slot{
+    width: 205px;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    height:100px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    margin-bottom: 10px;
+}
+
+.box2{
+    height:100px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border: 1px solid #C2C2C2;
+}
+
+.box3{
+    height:100%;
+    width: 200px;
+    background-color: #FFFFFF;
+    border: 1px solid #C2C2C2;
+}
+
+#element{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+    width:100%;
+    height:100px;
+    position: relative;
+    display: flex;
+    margin:0;
+    padding:0;
+}
+
+#visuworks{
+    font-size: 10px;
+    margin-left: 10px;
+    padding-top:20px;
+    font-weight: bold;
+}
+
+.divider{
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 0;
+   width:80%;
+   margin: 0 auto;
+}
